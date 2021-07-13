@@ -335,10 +335,13 @@ font-size: 20px;
     background-color: #40D3DC; */
     display: flex;
     justify-content: center;
+    transition: transform .2s;
     
-    
-    
-}
+    }
+
+    .interests:hover{
+        transform:scale(1.1);
+    }
 
 .inner_interests{
     display: block;
@@ -346,9 +349,12 @@ font-size: 20px;
     background-color: lightgrey;
     width: 50%;
     margin:auto;
-    border: 15px solid green;
+    border: 25px solid black;
     padding: 50px;
-    margin: 70px;
+    margin: 50px;
+    font-family:Georgia;
+    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 
@@ -357,7 +363,7 @@ font-size: 20px;
 /* Feedback design */
 
 .Feedback{
-    padding: 20px;
+    /* padding: 20px; */
     /* padding-left: 10px; */
     text-align: center;
     color: black;
@@ -407,10 +413,10 @@ font-size: 20px;
     border: 2.5px dashed #CA0B00;
   }
   
-  .warning {
+  /* .warning {
     background-color: #F0D500;
     border: 2.5px dashed #F0D500;
-  }
+  } */
   
   @keyframes spin { 
     100% { 
