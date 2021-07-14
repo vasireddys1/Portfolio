@@ -17,15 +17,15 @@
             </div>
             <ul class="navigation">
                 <a href="#about"><li>About</li></a>
-                <a href="#projects"><li>Projects</li></a>
-                <a href="#interests"><li>Interests</li></a>
+                <a href="#project_heading"><li>Projects</li></a>
+                <a href="#interests_heading"><li>Interests</li></a>
                 <a href="#Feedback"><li>Feedback</li></a>
                 <a href="#footer"><li>Contact</li></a>
             </ul>
         </div>
     </div>
 
-    <div class="about">
+    <div id="about">
     <div class="profile_picture">
         <img src="dattavasireddy.jpg" alt="Datta Vasireddy">
     </div>
@@ -37,7 +37,7 @@
     <h3>Gator</h3>
         <p>
             I'm a Object-driven, technically proficient software developer
-            currently pursuing my master's in computer science at <a href="https://www.ufl.edu/" style="color:rgba(255, 255, 255, 0.596) ">University of Florida</a>.
+            currently pursuing my master's in computer science at <a href="https://www.ufl.edu/" style="color:rgba(255, 255, 255, 0.596) " target="_blank">University of Florida</a>.
             with experience in developing multiple projects
             during my master’s degree, which helps me with a good understanding of software development methodologies and made me Highly
             adaptable and translatable to any demanding software developer roles.
@@ -81,7 +81,7 @@
     </div>
     </div>
 
-<div class="project_heading">
+<div id="project_heading">
     <h1>What I Did <JavaBlink> ? </JavaBlink></h1>
 </div>
     
@@ -104,23 +104,23 @@
             <a href="https://github.com/vasireddys1/GAN-and-VAE" class="proj_cont">GAN and VAE</a> -->
             <!-- slide projects start-->
             <div class="slide first">
-                <a href="https://github.com/vasireddys1/Database-System-Implementation"><img src="database.jpg" alt="Database System Implementation" title="Database System Implementation"></a>
+                <a href="https://github.com/vasireddys1/Database-System-Implementation" target="_blank"><img src="database.jpg" alt="Database System Implementation" title="Database System Implementation"></a>
             </div>
 
         <div class="slide">
-           <a href="https://github.com/vasireddys1/Botnet-Traffic-Detection"> <img src="botnet.jpg" alt="Botnet Traffic Detection" title="Botnet Traffic Detection"></a>
+           <a href="https://github.com/vasireddys1/Botnet-Traffic-Detection" target="_blank"> <img src="botnet.jpg" alt="Botnet Traffic Detection" title="Botnet Traffic Detection"></a>
         </div>
 
         <div class="slide">
-            <a href="https://github.com/vasireddys1/Hash-Tag-Counter"><img src="hashtag.png" alt="Hashtag Counter" title="Hashtag Counter"></a>
+            <a href="https://github.com/vasireddys1/Hash-Tag-Counter" target="_blank"><img src="hashtag.png" alt="Hashtag Counter" title="Hashtag Counter"></a>
         </div>
 
         <div class="slide">
-            <a href="https://github.com/vasireddys1/P2P-File-Sharing"><img src="peer.jpg" alt="P2P File Sharing" title="Peer to Peer File Sharing"></a>
+            <a href="https://github.com/vasireddys1/P2P-File-Sharing" target="_blank"><img src="peer.jpg" alt="P2P File Sharing" title="Peer to Peer File Sharing"></a>
         </div>
 
         <div class="slide">
-            <a href="https://github.com/vasireddys1/GAN-and-VAE"><img src="GAN.png" alt="GAN &amp; VAE" title="GAN &amp; VAE"></a>
+            <a href="https://github.com/vasireddys1/GAN-and-VAE" target="_blank"><img src="GAN.png" alt="GAN &amp; VAE" title="GAN &amp; VAE"></a>
         </div>
          <!-- slide projects end-->
 
@@ -162,7 +162,7 @@
 </script>
 
 
-    <div class="interests_heading">
+    <div id="interests_heading">
         <h1>What I Like <JavaBlink> ? </JavaBlink></h1>
     </div>
 
@@ -176,7 +176,7 @@
     </div>
 
     
-    <div class="Feedback">
+    <div id="Feedback">
         <h1>Feedback <JavaBlink> ? </JavaBlink></h1>
     </div>
 
@@ -186,7 +186,7 @@
               <div class="success circle"></div>
 
               <div class="icon">
-                <i class="fa fa-check"></i>
+                <i class="fa fa-check" onClick="feedback_function(this)"> </i>
                 <!-- <input class="input-field" type="text" placeholder="Username" name="usrnm"> -->
               </div>
 
@@ -207,7 +207,7 @@
               <div class="error circle"></div>
 
               <div class="icon">
-                <i class="fa fa-times"></i>
+                <i class="fa fa-times" onClick="feedback_function(this)"></i>
               </div>
 
             </div>
@@ -215,15 +215,15 @@
           
     </div>
 
+    <div class="email">
+    <a href="mailto: [dattavasireddy@gmail.com]?subject=Feedback on your portfolio&body=Hi Datta,%0DI have found your portfolio" class="button"> Email me  <JavaBlink>!</JavaBlink> </a>
+    </div>
     
-    
-
-    
-    <div class="footer">
+    <div id="footer">
             <div class="inner_footer">
 
                 <div class="logo_footer">
-                    <img src="dattavasireddy.jpg">
+                    <img src="vasireddy.jpeg">
                 </div>
 
                 <!-- <div class="footer_thrid">
@@ -234,16 +234,16 @@
 
                 <div class="footer_thrid">
                     <h1>Education</h1>
-                    <a href="https://rvrjcce.ac.in/">Rvr &amp; Jc </a>
-                    <a href="https://www.ufl.edu/">University of Florida</a>
+                    <a href="https://rvrjcce.ac.in/" target="_blank">Rvr &amp; Jc </a>
+                    <a href="https://www.ufl.edu/" target="_blank">University of Florida</a>
                 </div>
 
                 <div class="footer_thrid">
                     <h1>Find Me</h1>
-                    <li><a href="https://www.facebook.com/vasireddydatta"><i class ="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/datta_vasireddy/"><i class ="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/datta-vasireddy-4541bb101/"><i class ="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class ="fa fa-snapchat-ghost"></i></a></li>
+                    <li><a href="https://www.facebook.com/vasireddydatta" target="_blank"><i class ="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/datta_vasireddy/" target="_blank"><i class ="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/datta-vasireddy-4541bb101/" target="_blank"><i class ="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/Datta_Vasireddy" target="_blank"><i class ="fa fa-twitter"></i></a></li>
                     
 
                     <span>

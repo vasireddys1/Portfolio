@@ -70,7 +70,7 @@
 /*about section*/
 
 
-.about .profile_picture{
+#about .profile_picture{
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -78,7 +78,7 @@
     padding-bottom: 20px;
  }
 
-.about .profile_picture img{
+#about .profile_picture img{
    
     width: 200px;
     height: 200px;
@@ -86,7 +86,7 @@
     box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about .name{
+#about .name{
     text-align: center;
     color: black;
     font-size: 20px;
@@ -103,7 +103,7 @@
 
 /*description content*/
 
-.about .des{
+#about .des{
     display: block;
     /* justify-content: center; */
     box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -119,7 +119,7 @@
     border-radius: 20%;
 }
 
-.about .description p{
+#about .description p{
     line-height: 25px;
     width: 70%;
     font-size: 20px;
@@ -132,7 +132,8 @@
     margin-inline-end: 0px;
 }
 
-.about .skills ul{
+
+#about .skills ul{
     line-height: 25px;
     margin-top: 30px;
     padding-left: 30%;
@@ -147,7 +148,7 @@
     margin-inline-end: 0px; 
 
 }
-.about .skills h4{
+#about .skills h4{
 margin-top: 10px;
 margin-bottom: 10px;
 color: black;
@@ -160,7 +161,7 @@ font-weight: bold;
 font-size: 20px;
 }
 
-.about .des .description h3{
+#about .des .description h3{
         margin-top: 10px;
         margin-bottom: 10px;
         color:black;
@@ -187,7 +188,7 @@ font-size: 20px;
 
 }
 
-.project_heading{
+#project_heading{
     padding: 40px;
     padding-left: 10px;
     text-align: center;
@@ -316,7 +317,7 @@ font-size: 20px;
 
 /* Interests */
 
-.interests_heading{
+#interests_heading{
     padding: 40px;
     padding-left: 10px;
     text-align: center;
@@ -352,6 +353,7 @@ font-size: 20px;
     border: 25px solid black;
     padding: 50px;
     margin: 50px;
+    font-size: 30px;
     font-family:Georgia;
     box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -362,7 +364,7 @@ font-size: 20px;
 
 /* Feedback design */
 
-.Feedback{
+#Feedback{
     /* padding: 20px; */
     /* padding-left: 10px; */
     text-align: center;
@@ -424,17 +426,54 @@ font-size: 20px;
     }
   }
   
+
   .page-wrapper {
-    height: 50vh;
+    height: 30vh;
     /* background-color: #eee; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
+  
+  
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.email a {
+    display:block;
+    background-color: #ccc;
+    color: #000;
+    text-decoration:none;
+    padding:10px;
+    margin-bottom:1px;
+    font-size: 25px;
+    font-weight: 700;
+
+  }
+  .email a:hover {
+    background-color: #ddd;
+  }
+
+
+
+
+
+  
 /*footer design*/
 
-.footer{
+#footer{
     width: 100vw;
     bottom: 0;
     display: block;
@@ -519,7 +558,7 @@ font-size: 20px;
         color: white;
       }
       
-      .inner_footer .footer_thrid .fa .fa-snapchat-ghost {
+      .inner_footer .footer_thrid .fa .fa-twitter {
         background: #fffc00;
         color: white;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
